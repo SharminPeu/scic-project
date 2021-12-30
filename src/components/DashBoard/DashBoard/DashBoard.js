@@ -78,6 +78,7 @@ function Dashboard(props) {
         </Box>
       ) : (
         <Box>
+            
           <NavLink style={{ textDecoration: "none" }} to={`${url}/pay`}>
             <Button sx={{ mt: 2 }} color="inherit">
               Pay
@@ -198,9 +199,7 @@ function Dashboard(props) {
           <Route exact path={`${path}/myOrders`}>
             <MyOrders></MyOrders>
           </Route>
-          <Route path={`${path}/makeAdmin`}>
-            <MakeAdmin></MakeAdmin>
-          </Route>
+          
           <Route exact path={`${path}/review`}>
             <Reviews></Reviews>
           </Route>
@@ -208,9 +207,9 @@ function Dashboard(props) {
             <ManageOrders></ManageOrders>
           </AdminRoute>
           
-          {/* <AdminRoute path={`${path}/makeAdmin`}>
+          <AdminRoute path={`${path}/makeAdmin`}>
             <MakeAdmin></MakeAdmin>
-          </AdminRoute> */}
+          </AdminRoute>
           <AdminRoute path={`${path}/addProduct`}>
             <AddProduct></AddProduct>
           </AdminRoute>
