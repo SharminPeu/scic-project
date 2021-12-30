@@ -25,7 +25,7 @@ Are you want to clean your home ? Check out Our HandyVai... This is best website
 * For database part we use mongodb atlas
 
 # Client site Github Repo Link [https://github.com/SharminPeu/scic-project]
-# Client Live site Link []
+#  Live site Link [https://watch-zone-76da0.web.app/]
 
 
 # For routing we use React Router,v5.reactrouter
