@@ -1,6 +1,7 @@
 
 import "./App.css";
-import AuthProvider from "./context/AuthProvider/AuthProvider";
+
+// import AuthProvider from "./context/AuthProvider/AuthProvider";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home/Home";
 import ProductsAll from "./components/ProductsAll/ProductsAll";
@@ -11,6 +12,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Register from "./components/Register/Register";
 import NotFound from "./components/NotFound/NotFound";
 import DashBoard from "./components/DashBoard/DashBoard/DashBoard"
+import AuthProvider from "./context/AuthProvider";
 
 
 function App() {

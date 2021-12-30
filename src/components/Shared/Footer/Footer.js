@@ -27,20 +27,20 @@ const Footer = () => {
 
             <p className="fw-bold">Information</p>
             <p>
-              <i className="text-color fas fa-phone-alt"></i> (+0099345213)
+              <i className="text-color fas fa-phone-alt"></i> (+0099345000)
             </p>
             <p>
-              <i className="text-color fas fa-mobile-alt"></i> (+8801776546675)
+              <i className="text-color fas fa-mobile-alt"></i> (+8801776145227)
             </p>
             <p>
               <i className="text-color far fa-envelope"></i>{" "}
-              <a className="text-white" href="hasibulhasan294@gmail.com">watch_zone@gmail.com</a>
+              <a className="text-white" href="hasibulhasan294@gmail.com">handyVai@gmail.com</a>
             </p>
           </div>
           <div className="text-start">
             <p>Get Help</p>
             <p>Read FAQs</p>
-            <p>Views All Collections</p>
+            <p>Views All Services</p>
             <p>Stay With Us </p>
           </div>
         </div>

@@ -23,7 +23,7 @@ const ProductShow = () => {
   }
   return (
     <div  className=" containeer my-5 p-4">
-      <h2 className="mb-0 text-primary">Our Watch Collections</h2>
+      <h2 className="mb-0 text-primary">Our Services</h2>
       <Container>
         <Row className="g-4 my-3">
           {products.slice(0, 6).map((product) => (

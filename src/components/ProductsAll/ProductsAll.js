@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Spinner } from "react-bootstrap";
-import MenuBar from "../Shared/MenuBar/MenuBar";
- import Footers from "../Shared/Footers/Footers";
+import Menubar from "../Shared/Menubar/Menubar";
+ import Footer from "../Shared/Footer/Footer";
 import ShowProduct from "../ShowProduct/ShowProduct";
 //  import ShowProduct from "../ShowProduct/ShowProduct";
 
@@ -25,7 +25,7 @@ const ProductsAll = () => {
       }
     return (
         <div className="container">
-      <MenuBar></MenuBar>
+      <Menubar></Menubar>
       <div className="my-5 p-4">
         <h2 className="mb-0">Our Watch Collections</h2>
         <Container>
@@ -36,7 +36,7 @@ const ProductsAll = () => {
           </Row>
         </Container>
       </div>
-      <Footers></Footers>
+      <Footer></Footer>
             
         </div>
     );

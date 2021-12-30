@@ -35,7 +35,7 @@ const Menubar = () => {
                 Home
               </Nav.Link>
               <Nav.Link as={NavLink} to="/products">
-                Products
+                Services
               </Nav.Link>
               {user?.email && (
                 <>

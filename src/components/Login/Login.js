@@ -1,7 +1,7 @@
 import { Link, useLocation, useHistory } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 // import useAuth from "../../Firebase/hooks/UseAuth";
-import gLogo from "../image/logo/google.png";
+// import gLogo from "../image/logo/google.png";
 import Footer from "../Shared/Footer/Footer";
 import Menubar from "../Shared/Menubar/Menubar";
 
@@ -98,9 +98,9 @@ const Login = () => {
               onClick={handleGoogleLogin}
               className="btn btn-outline-success rounded-pill d-flex mx-auto"
             >
-              <div>
+              {/* <div>
                 <img className="flex-grow-1 me-5" src={gLogo} alt="" />
-              </div>
+              </div> */}
               <div>Continue with Google</div>
             </button>
           </div>

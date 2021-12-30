@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import img from "../image/logo/quote.png";
+// import img from "../image/logo/quote.png";
 import Rating from "@mui/material/Rating";
 
 const Review = () => {
@@ -26,7 +26,7 @@ const Review = () => {
           {reviews.map((review) => (
             <Col key={review._id} className="" md={4}>
               <div className="shadow rounded-3 p-3 d-flex justify-content-center align-items-start">
-                <img className="me-3" src={img} alt="" />
+                {/* <img className="me-3" src={img} alt="" /> */}
                 <div>
                   <h5 className="fw-light text-start">{review.message}</h5>
                   <p className="mb-0 fst-italic text-start">
