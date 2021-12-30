@@ -45,7 +45,7 @@ const ProductBook = () => {
         <Container>
           <Row className="g-4 my-3">
             <Col md={7} lg={8}>
-              <h4>Watch Details</h4>
+              <h4>Service Details</h4>
               <div>
                 <img className=" image" src={product?.img} alt="" />
                 <hr className="text-secondary mb-2" />
@@ -77,7 +77,7 @@ const ProductBook = () => {
             <Col md={5} lg={4}>
               <h4>--Order Info--</h4>
               <div className="bg-secondary bg-gradient p-3 rounded">
-                <h4 className="text-white">Confirm this product</h4>
+                <h4 className="text-white">Confirm this Service</h4>
                 <form className="book-form" onSubmit={handleSubmit(onSubmit)}>
                   <input
                     {...register("name")}
@@ -91,7 +91,7 @@ const ProductBook = () => {
                   />
 
                   <textarea {...register("massage")} placeholder="Massage" />
-                  <p className="text-start text-white mb-0 mt-1">Your Watch</p>
+                  <p className="text-start text-white mb-0 mt-1">Your Service Name</p>
                   <input defaultValue={product?.name} required />
                   <input
                     className="bg-info border-0 text-white py-2 rounded-pill"

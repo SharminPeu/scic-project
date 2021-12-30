@@ -22,7 +22,7 @@ const ExtraPart = () => {
                 />
                 <div>
                   <h2>100%</h2>
-                  <h5>Genuine Product</h5>
+                  <h5>Best Services</h5>
                 </div>
               </div>
             </Col>
@@ -35,7 +35,7 @@ const ExtraPart = () => {
                 />
                 <div>
                   <h2>Provide</h2>
-                  <h5>Best Discount</h5>
+                  <h5>Huge Discount</h5>
                 </div>
               </div>
             </Col>

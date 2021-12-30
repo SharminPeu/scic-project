@@ -27,7 +27,7 @@ const ProductsAll = () => {
         <div className="container">
       <Menubar></Menubar>
       <div className="my-5 p-4">
-        <h2 className="mb-0">Our Watch Collections</h2>
+        <h2 className="mb-0">Our All Services</h2>
         <Container>
           <Row className="g-4 my-3">
             {products.map((product) => (

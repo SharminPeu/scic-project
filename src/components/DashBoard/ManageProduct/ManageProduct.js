@@ -30,9 +30,9 @@ const ManageProduct = () => {
   return (
     <div className="container">
       <h5 className="mb-3 text-color">Admin Panel</h5>
-      <h2>Manage All Products</h2>
+      <h2>Manage All Services</h2>
       <hr className="mt-0 mb-5 border-bottom border-4 border-success mx-auto w-25" />
-      <h4 className="mb-3">Total Products: {product?.length}</h4>
+      <h4 className="mb-3">Total Services: {product?.length}</h4>
       {product?.map((item) => (
         <div key={item._id} className="my-order">
           <Row>

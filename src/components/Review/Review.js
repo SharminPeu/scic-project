@@ -32,7 +32,7 @@ const Review = () => {
                   <p className="mb-0 fst-italic text-start">
                     {review.productName}
                   </p>
-                  <p className="fst-italic text-start">{review.brand}</p>
+                  
                   <h4 className="text-start">{review.name}</h4>
                   <h4 className="text-start">{review.email}</h4>
 

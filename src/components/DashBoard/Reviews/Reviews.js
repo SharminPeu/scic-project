@@ -21,7 +21,7 @@ const Reviews = () => {
   };
   return (
     <div className="container p-4">
-      <h2 className="mb-5">Please Review Our Watch</h2>
+      <h2 className="mb-5">Please Review Our Services</h2>
       <Row className="justify-content-center">
         <Col lg={8}>
           <form className="book-form" onSubmit={handleSubmit(onSubmit)}>
@@ -29,7 +29,7 @@ const Reviews = () => {
             <input {...register("email")} defaultValue={user.email} />
             <input
               {...register("productName")}
-              placeholder="Watch Name"
+              placeholder="Service Name"
               required
             />
 
