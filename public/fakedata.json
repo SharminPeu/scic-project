@@ -1,0 +1,51 @@
+[
+    {
+        "key":"1m",
+        "name":"Sofa Set Cleaning",
+        "price":"550",
+        "description":"5 set sofa will be clean by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/0VF3mrB/sofa-cleaning-service.jpg"
+    },
+    {
+        "key":"2l",
+        "name":"Kitchen & Washroom Cleaning",
+        "price":"1000",
+        "description":"Two washroom and 1 kitchen with Exhaust Fan  will be clean by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/kKvfjX1/kitchen.jpg"
+    },
+    {
+        "key":"3h",
+        "name":"Washroom Deep Cleaning",
+        "price":"800",
+        "description":"All the washroom and all the fitings will be clean by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/w42ZGCf/washroom.jpg"
+    },
+    {
+        "key":"4k",
+        "name":"Home deep cleaning",
+        "price":"4099",
+        "description":"Your full home will be clean by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/m9vKrZV/home-clean.jpg"
+    },
+    {
+        "key":"5u",
+        "name":"MicroOven Cleaning",
+        "price":"550",
+        "description":"Microoven will be clean by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/cYsm0z4/oven.jpg"
+    },
+    {
+        "key":"6t",
+        "name":"Glass Cleaning",
+        "price":"650",
+        "description":"Your window glass will be clean by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/JjhVxCn/glass-clean.jpg"
+    },
+    {
+        "key":"7w",
+        "name":"Refrigerator Painting Service",
+        "price":"2499",
+        "description":"Your refrigerator will be cleaned and painted by our expert cleaners,Upfront pricing and cashless payments.",
+        "img":"https://i.ibb.co/0t31Njh/fridge.jpg"
+    }
+]
