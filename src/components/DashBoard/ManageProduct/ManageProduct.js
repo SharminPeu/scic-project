@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 const ManageProduct = () => {
   const [product, setProduct] = useState([]);
   useEffect(() => {
-    fetch("https://shrouded-headland-01682.herokuapp.com/products")
+    fetch("https://sheltered-bayou-06748.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [product]);
@@ -14,7 +14,7 @@ const ManageProduct = () => {
       "Are you sure, want to delete this Product?"
     );
     if (proceed) {
-      const url = `https://shrouded-headland-01682.herokuapp.com/products/${id}`;
+      const url = `https://sheltered-bayou-06748.herokuapp.com/products/${id}`;
       fetch(url, {
         method: "DELETE",
       })

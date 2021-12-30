@@ -9,7 +9,7 @@ const MakeAdmin = () => {
   };
   const handleAdminSubmit = (e) => {
     const user = { email };
-    fetch("https://shrouded-headland-01682.herokuapp.com/users/admin", {
+    fetch("https://sheltered-bayou-06748.herokuapp.com/users/admin", {
       method: "PUT",
       headers: {
         "content-type": "application/json",

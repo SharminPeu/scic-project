@@ -108,14 +108,14 @@ const useFirebase = () => {
   }, [auth]);
 
   useEffect(() => {
-    fetch(`https://shrouded-headland-01682.herokuapp.com/users/${user.email}`)
+    fetch(`https://sheltered-bayou-06748.herokuapp.com/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
   }, [user.email]);
 
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch("https://shrouded-headland-01682.herokuapp.com/users", {
+    fetch("https://sheltered-bayou-06748.herokuapp.com/users", {
       method: method,
       headers: {
         "content-type": "application/json",

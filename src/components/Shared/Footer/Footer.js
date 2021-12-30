@@ -13,9 +13,9 @@ const Footer = () => {
           <div>
             <img style={{ width: "50px", marginLeft: "5px" }} src="" alt="" />
             <h3>
-              Watch Zone </h3>
+              HandyVai </h3>
             <p className="mb-0">
-              "We Provide best products <br /> to make you happy"
+              "We Provide best Services <br /> to make you happy"
             </p>
           </div>
 
@@ -53,7 +53,7 @@ const Footer = () => {
         </p>
       </div>
       <p className="mb-0 p-3 text-center text-white bg-info">
-        Copyright<i className="far fa-copyright"></i> 2022 Watch Zone All right
+        Copyright<i className="far fa-copyright"></i> 2022 HandyVai All right
         reserved.
       </p>
     </div>

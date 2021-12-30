@@ -23,7 +23,7 @@ const Menubar = () => {
               <img style={{ width: "40px" }} className="me-2" src={bg} alt="" />
               <div>
                 <p className="mb-0 lh-1">
-                  Watch Zone
+                  HandyVai
                 </p>
               </div>
             </div>

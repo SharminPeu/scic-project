@@ -20,7 +20,7 @@ const ProductBook = () => {
   const onSubmit = (data) => {
     data.productName = product.name;
     axios
-      .post("https://shrouded-headland-01682.herokuapp.com/product/booking", data)
+      .post("https://sheltered-bayou-06748.herokuapp.com/product/booking", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("Your Order is Confirmed");
@@ -31,7 +31,7 @@ const ProductBook = () => {
   };
 
   useEffect(() => {
-    fetch(`https://shrouded-headland-01682.herokuapp.com/product/${id}`)
+    fetch(`https://sheltered-bayou-06748.herokuapp.com/product/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);

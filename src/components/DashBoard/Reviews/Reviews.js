@@ -11,7 +11,7 @@ const Reviews = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://shrouded-headland-01682.herokuapp.com/review", data)
+      .post("https://sheltered-bayou-06748.herokuapp.com/review", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("Review Added Successfully");

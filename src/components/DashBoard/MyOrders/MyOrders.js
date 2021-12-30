@@ -9,7 +9,7 @@ const MyOrders = () => {
   const id = user.email;
   //   console.log(email);
   useEffect(() => {
-    fetch(`https://shrouded-headland-01682.herokuapp.com/orders/${id}`)
+    fetch(`https://sheltered-bayou-06748.herokuapp.com/orders/${id}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [id]);
@@ -17,7 +17,7 @@ const MyOrders = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure, want to delete this order?");
     if (proceed) {
-      const url = `https://shrouded-headland-01682.herokuapp.com/orders/${id}`;
+      const url = `https://sheltered-bayou-06748.herokuapp.com/orders/${id}`;
       fetch(url, {
         method: "DELETE",
       })
