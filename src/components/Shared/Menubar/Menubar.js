@@ -13,7 +13,7 @@ const Menubar = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="secondary"
+        bg="primary"
         variant="dark"
         sticky="top"
       >
