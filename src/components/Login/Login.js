@@ -96,7 +96,7 @@ const Login = () => {
             <hr />
             <button
               onClick={handleGoogleLogin}
-              className="btn btn-outline-success rounded-pill d-flex mx-auto"
+              className="btn btn-outline-primary rounded-pill d-flex mx-auto"
             >
               {/* <div>
                 <img className="flex-grow-1 me-5" src={gLogo} alt="" />

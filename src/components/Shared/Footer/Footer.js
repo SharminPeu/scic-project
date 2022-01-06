@@ -8,7 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const Footer = () => {
   return (
     <div className="container">
-      <div className="bg-secondary p-3 text-white">
+      <div className="bg-primary p-3 text-white">
         <div className="py-5 d-lg-flex justify-content-around">
           <div>
             <img style={{ width: "50px", marginLeft: "5px" }} src="" alt="" />
