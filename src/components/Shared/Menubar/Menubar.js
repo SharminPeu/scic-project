@@ -13,7 +13,7 @@ const Menubar = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="primary"
+        bg="info"
         variant="dark"
         sticky="top"
       >
@@ -63,10 +63,10 @@ const Menubar = () => {
             ) : (
               <>
                 <Nav.Link as={NavLink} to="/login">
-                  <button className="btn btn-info text-white">LogIn</button>
+                  <button className="btn btn-primary text-white">LogIn</button>
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/register">
-                  <button className="btn btn-info text-white">
+                  <button className="btn btn-primary text-white">
                     Register
                   </button>
                 </Nav.Link>
