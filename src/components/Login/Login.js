@@ -85,7 +85,7 @@ const Login = () => {
               <div className="mb-3 text-danger">{errorLogin}</div>
               <button
                 type="submit"
-                className="d-block px-5 btn btn-success text-white"
+                className="d-block px-5 btn btn-primary text-white"
               >
                 Login
               </button>

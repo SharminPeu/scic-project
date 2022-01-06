@@ -81,7 +81,7 @@ const Register = () => {
               <br />
               <button
                 type="submit"
-                className="d-block px-5 btn btn-success text-white"
+                className="d-block px-5 btn btn-primary text-white"
               >
                 Register
               </button>
